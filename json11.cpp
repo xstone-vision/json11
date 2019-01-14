@@ -26,7 +26,7 @@
 #include <cstdio>
 #include <limits>
 
-namespace json11 {
+namespace my_json11 {
 
 static const int max_depth = 200;
 
@@ -785,4 +785,4 @@ bool Json::has_shape(const shape & types, string & err) const {
     return true;
 }
 
-} // namespace json11
+} // namespace my_json11
