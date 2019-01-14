@@ -68,7 +68,7 @@
     #endif
 #endif
 
-namespace json11 {
+namespace my_json11 {
 
 enum JsonParse {
     STANDARD, COMMENTS
@@ -229,4 +229,4 @@ protected:
     virtual ~JsonValue() {}
 };
 
-} // namespace json11
+} // namespace my_json11
